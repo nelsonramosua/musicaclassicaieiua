@@ -2,10 +2,6 @@ body {
     padding: 20px; 
 }
 
-h1 { 
-    color: #007bff; 
-}
-
 .nav-link { 
     font-weight: bold; 
 }
@@ -21,6 +17,44 @@ h1 {
     padding-left: 1em;
     padding-right: 1em;
 }
+
+footer p {
+    margin: 0;
+}
+
+.footer-logo-container {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    z-index: 10;
+}
+
+.footer-logo {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Media Query for screens narrower than 880px */
+@media (max-width: 995px) {
+    .footer-logo-container {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+section {
+    text-align: justify;
+}
+
+header h1 {
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
 
 /* Submenu styles */
 .dropdown-submenu {
@@ -39,4 +73,12 @@ h1 {
 
 .boldT {
     font-weight: bold;
+}
+
+.seating-image {
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 10px;
 }
