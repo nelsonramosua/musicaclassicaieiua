@@ -1,0 +1,42 @@
+body { 
+    padding: 20px; 
+}
+
+h1 { 
+    color: #007bff; 
+}
+
+.nav-link { 
+    font-weight: bold; 
+}
+
+.nav-title {
+    font-weight: bolder;
+    font-size: larger;
+    padding: .25em;
+}
+
+.bg-mine {
+    background-color:rgb(205, 205, 205);
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* Submenu styles */
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -0.1rem;
+}
+
+.dropdown-item.active  {
+    background-color: rgb(188, 184, 184) !important;
+}
+
+.boldT {
+    font-weight: bold;
+}
