@@ -1,6 +1,7 @@
 {
     "name": "Música Clássica em Portugal",
     "short_name": "MC",
+    "description": "Website subordinado à temática da Música Clássica em Portugal, com uma análise das suas Orquestras e Bandas Filarmónicas, bem como as diferenças entre elas.",
     "icons": [
         {
             "src": "/images/favicons/android-chrome-192x192.png",
@@ -15,5 +16,40 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "rgb(205, 205, 205)",
-    "display": "standalone"
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "screenshots": [
+    {
+      "src": "images/WebsiteScreenshot.png",
+      "sizes": "1832x880",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "url": "/bandas.html",
+      "name": "Bandas Filarmónicas",
+      "short_name": "Bandas",
+      "description": "Secção das Bandas Filarmónicas"    
+    },
+    {
+    "url": "/orquestras.html",
+      "name": "Orquestras",
+      "short_name": "Orquestras",
+      "description": "Secção das Orquestras"
+    },
+    {
+      "url": "/comparacao.html",
+      "name": "Comparação ",
+      "short_name": "Comparação",
+      "description": "Comparação entre Bandas e Orquestras em tabela"
+    },
+    {
+      "url": "/about.html",
+      "name": "Sobre",
+      "short_name": "Sobre",
+      "description": "Secção das Informações sobre o Website"
+    }
+  ]
 }
