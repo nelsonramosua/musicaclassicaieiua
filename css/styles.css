@@ -113,3 +113,7 @@ figcaption {
     padding-left: 1em;
     padding-right: 1em;
 }
+
+.seating-image img {
+    max-width: 100%;
+}
