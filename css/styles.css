@@ -44,6 +44,31 @@ footer p {
     }
 }
 
+
+
+/* Ensure the root and body take up the full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content grows to fill available space */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer is always at the bottom */
+footer {
+    background-color: #f8f9fa; /* Light background color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+
 section {
     text-align: justify;
 }
