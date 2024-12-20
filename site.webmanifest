@@ -26,6 +26,11 @@
       "sizes": "1832x880",
       "type": "image/png",
       "form_factor": "wide"
+    },
+    {
+      "src": "images/WebsiteScreenshot.png",
+      "sizes": "1832x880",
+      "type": "image/png"    
     }
   ],
   "shortcuts": [
@@ -33,25 +38,49 @@
       "url": "/bandas.html",
       "name": "Bandas Filarmónicas",
       "short_name": "Bandas",
-      "description": "Secção das Bandas Filarmónicas"    
+      "description": "Secção das Bandas Filarmónicas",
+      "icons": [
+        {
+        "src": "images/favicons/favicon-96x96.png",
+        "sizes": "192x192"
+        }
+        ]
     },
     {
     "url": "/orquestras.html",
       "name": "Orquestras",
       "short_name": "Orquestras",
-      "description": "Secção das Orquestras"
+      "description": "Secção das Orquestras",
+      "icons": [
+        {
+        "src": "images/favicons/favicon-96x96.png",
+        "sizes": "192x192"
+        }
+        ]
     },
     {
       "url": "/comparacao.html",
       "name": "Comparação ",
       "short_name": "Comparação",
-      "description": "Comparação entre Bandas e Orquestras em tabela"
+      "description": "Comparação entre Bandas e Orquestras em tabela",
+      "icons": [
+        {
+        "src": "images/favicons/favicon-96x96.png",
+        "sizes": "192x192"
+        }
+        ]
     },
     {
       "url": "/about.html",
       "name": "Sobre",
       "short_name": "Sobre",
-      "description": "Secção das Informações sobre o Website"
+      "description": "Secção das Informações sobre o Website",
+      "icons": [
+        {
+        "src": "images/favicons/favicon-96x96.png",
+        "sizes": "192x192"
+        }
+        ]
     }
   ]
 }
