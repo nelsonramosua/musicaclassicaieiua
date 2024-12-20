@@ -19,11 +19,13 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
+    "id": "/",
     "screenshots": [
     {
       "src": "images/WebsiteScreenshot.png",
       "sizes": "1832x880",
-      "type": "image/png"
+      "type": "image/png",
+      "form_factor": "wide"
     }
   ],
   "shortcuts": [
