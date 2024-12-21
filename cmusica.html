@@ -123,11 +123,40 @@
             </p>
         </section>
 
+        <hr>
+
         <section>
-            <figure>
-                <figcaption class="heldenLebenTitle boldT">Pequeno excerto de <i>Ein HeldenLeben</i>, de Richard Strauss, interpretado pela Orquestra Sinfónica da Casa da Música:</figcaption>
-                <audio controls src="miscelaneous/cMusicaHeldenleben.mp3">Ein HeldenLeben</audio>
-            </figure>
+
+            <div class="btnCenter">
+                <p>
+                    Caso queira ouvir um pequeno excerto de uma obra de Strauss interpretado por esta orquestra, clique no botão abaixo:
+                </p>
+
+                <button type="button" class="btn btnM bg-mine" data-bs-toggle="modal" data-bs-target="#audioModal">
+                    Abrir Áudio
+                </button>
+            </div>
+            
+            <div class="modal fade" id="audioModal" tabindex="-1" aria-labelledby="audioModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="audioModalLabel">Ouça o Áudio</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <figure>
+                                <figcaption class="heldenLebenTitle boldT">Pequeno excerto de <i>Ein HeldenLeben</i>, de Richard Strauss, interpretado pela Orquestra Sinfónica da Casa da Música:</figcaption>
+                                <audio controls src="miscelaneous/cMusicaHeldenleben.mp3">Ein HeldenLeben</audio>
+                            </figure>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
         
         <br><hr>

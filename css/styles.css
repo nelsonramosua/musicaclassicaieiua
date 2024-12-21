@@ -122,3 +122,12 @@ figcaption {
     font-size: large;
     margin-bottom: 1em;
 }
+
+.btnCenter {
+    text-align: center;
+    align-items: center;
+}
+
+.btnM:hover {
+    background-color: rgb(192, 220, 138);
+}
