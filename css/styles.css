@@ -44,8 +44,6 @@ footer p {
     }
 }
 
-
-
 /* Ensure the root and body take up the full height */
 html, body {
     height: 100%;
@@ -112,8 +110,15 @@ figcaption {
 .tableM {
     padding-left: 1em;
     padding-right: 1em;
+    width: 100%;
+    overflow: visible;
 }
 
 .seating-image img {
     max-width: 100%;
+}
+
+.heldenLebenTitle {
+    font-size: large;
+    margin-bottom: 1em;
 }
