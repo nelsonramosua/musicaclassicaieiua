@@ -4,6 +4,7 @@ Recursos utilizados na conceção deste Website:
 
 - Twitter Bootstrap (CSS e JS).
 - Leaflet JS.
+- HighCharts JS.
 
 Elementos que participaram na conceção do Projeto (Grupo N.º 56):
 
