@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang='pt'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Início</title>
+
+    <!-- Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+    
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Make it Web App capable -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="msapplication-starturl" content="/">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-mine">
+        <a class="navbar-brand nav-title" href="#">Música Clássica em Portugal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="bandasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Bandas Filarmónicas
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="bandasDropdown">
+                        <li><a class="dropdown-item" href="bandas.html">Bandas Filarmónicas</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">Exemplos de Bandas</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="uft.html">União Filarmónica do Troviscal</a></li>
+                                <li><a class="dropdown-item" href="armab.html">ARMAB</a></li>
+                                <li><a class="dropdown-item" href="golaes.html">Banda de Golães – Fafe</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="orquestrasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Orquestras
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="orquestrasDropdown">
+                        <li><a class="dropdown-item" href="orquestras.html">Orquestras</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">Exemplos de Orquestras</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="gulbenkian.html">Orquestra da Gulbenkian</a></li>
+                                <li><a class="dropdown-item" href="cmusica.html">Orquestra Sinfónica da Casa da Música</a></li>
+                                <li><a class="dropdown-item" href="beiras.html">Orquestra Filarmonia das Beiras</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="comparacao.html">Comparação</a></li>
+                <li class="nav-item"><a class="nav-link active" style="font-weight: 900; color: black" href="#">Galeria</a></li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="about.html">Sobre</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Galeria de Fotografias subordinadas às Orquestras e às Bandas Filarmónicas</h1>
+    </header>
+
+    <main>    
+        <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="9" aria-label="Slide 19"></button>
+            </div>
+    
+            <!-- Slides -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/bootstrapCarousel/armab.jpg" class="d-block w-100" alt="Slide 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>ARMAB 1</h5>
+                        <p>ARMAB em Arraial.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bootstrapCarousel/Armab4.jpg" class="d-block w-100" alt="Slide 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>ARMAB 2</h5>
+                        <p>ARMAB em Desfile.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bootstrapCarousel/ARMAB5.jpg" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>ARMAB 3</h5>
+                        <p>ARMAB em Concerto.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bootstrapCarousel/cmusica.jpg" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Casa da Música</h5>
+                        <p>Corpo Artístico da Orquestra Sinfónica da Casa da Música</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bootstrapCarousel/beiras.jpg" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Orquestra Filarmonia das Beiras 1</h5>
+                        <p>Orquestra Filarmonia das Beiras em Concerto.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bootstrapCarousel/beiras2.jpg" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Orquestra Filarmonia das Beiras 2</h5>
+                        <p>Corpo Artístico da Orquestra Filarmonia das Beiras.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bootstrapCarousel/golaes.jpg" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Banda de Golães</h5>
+                        <p>Banda de Golães em Desfile.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bootstrapCarousel/gulbenkian.jpeg" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Orquestra da Gulbenkian 1</h5>
+                        <p>Orquestra da Gulbenkian em Concerto.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bootstrapCarousel/quartetoGulbenkian.jpg" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Orquestra da Gulbenkian 2</h5>
+                        <p>Quarteto da Orquestra da Gulbenkian em Concerto.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bootstrapCarousel/uft.jpg" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>União Filarmónica do Troviscal</h5>
+                        <p>UFT em Concerto.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    
+    </main>
+
+    <footer class="bg-light text-center text-lg-start mt-5 text-center position-relative">
+        <div class="container p-4 position-relative">
+            <!-- Logo Section -->
+            <div class="footer-logo-container">
+                <img src="images/logo.png" alt="Logo" class="footer-logo" style="max-width: 140px; height:85px;">
+            </div>
+            <p class="text-center">Guilherme Graça – 115876 e Nelson Ramos – 124921</p>
+            <br>
+            <p class="text-center">DETI – Departamento de Electrónica, Telecomunicações e Informática</p>
+            <p class="text-center">Universidade de Aveiro</p>
+        </div>
+    </footer>
+
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js'></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

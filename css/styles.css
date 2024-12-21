@@ -131,3 +131,8 @@ figcaption {
 .btnM:hover {
     background-color: rgb(192, 220, 138);
 }
+
+.carousel img {
+    max-height: 500px;
+    object-fit: cover;
+}
