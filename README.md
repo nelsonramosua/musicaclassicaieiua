@@ -9,9 +9,9 @@ Recursos utilizados na conceção deste Website:
 Elementos que participaram na conceção do Projeto (Grupo N.º 56):
 
 - **Guilherme Costa Graça** – 115876 – guilhermegraca@ua.pt;
-    - Contribuição: xx%
+    - Contribuição: 40%
 - **Nelson Rocha Ramos** – 124921 – nelsonramos@ua.pt.
-    - Contribuição: xx%
+    - Contribuição: 60%
 
 Este trabalho foi concebido no seguimento de um anterior, feito em LaTeX, no âmbito da Disciplina de IEI – Introdução à Engenharia Informática.
 Pode fazer o download desse trabalho, em formato PDF, no link que segue: [Trabalho em PDF](miscelaneous/AP_PDF.pdf)
